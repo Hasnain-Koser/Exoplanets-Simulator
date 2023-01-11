@@ -1,0 +1,165 @@
+#rendersim {
+    margin: 2% 10%;
+    width: 80%;
+    touch-action: none;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url("../Images/bg-sim.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+
+.tutlink {
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.arrow {
+    transition: 1s;
+    color: white;
+}
+
+.tutlink:hover {
+    color: yellow;
+}
+
+.tutlink:hover .arrow {
+    margin-left: 10px;
+    color: yellow;
+}
+
+.panel {
+    color: white;
+    width: 95%;
+    margin: auto;
+}
+
+.ui {
+    background-color: rgba(71, 61, 139, 0.3);
+    border-radius: 10px;
+    padding: 1% 1%;
+}
+
+.system {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 2% 2%;
+    border-radius: 10px;
+    margin: 1% 1%;
+}
+
+.timebtn {
+    float: left;
+    padding: 10px;
+}
+
+.time {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 2% 2%;
+    border-radius: 10px;
+    margin: 1% 1%;
+}
+
+.generate {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 2% 2%;
+    border-radius: 10px;
+    margin: 1% 1%;
+}
+
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+#starname {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 2px;
+}
+
+#planet {
+    margin: 0 2px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.data {
+    background-color: rgba(35, 60, 60, 0.6);
+    border-radius: 10px;
+    padding: 1% 1%;
+    margin: 20px 0;
+}
+
+.star {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 1% 1%;
+}
+
+.planet {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 1% 1%;
+}
+
+h4 {
+    font-size: large;
+    color: goldenrod;
+}
+
+#controls {
+    font-size: x-large;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#data {
+    font-size: x-large;
+    margin: 20px;
+    cursor: pointer;
+}
+
+[class*="col-"] {
+    padding: 5px;
+}
+
+@media only screen and (min-width: 500px) {
+    [class*="col-"] {
+        padding: 5px;
+    }
+
+    #rendersim {
+        margin: 2% 5%;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    [class*="col-"] {
+        padding: 5px;
+    }
+
+    #rendersim {
+        margin: 2% 2.5%;
+        width: 95%;
+    }
+}
