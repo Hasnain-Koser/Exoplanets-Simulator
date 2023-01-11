@@ -244,6 +244,9 @@ def home():
 def about():
     return fl.render_template("about.html")
 
+@app.route("/sitemap")
+def sitemap():
+    return fl.render_template("sitemap.xml")
 
 @app.route("/simulator")
 def simulation():
